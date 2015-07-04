@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In the process of creating my first blog!
+title: Write up for Benson Project
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
