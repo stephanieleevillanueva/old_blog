@@ -10,7 +10,7 @@ I'll be real honest and say this is my first ever attempt at blogging... so if a
 
 So it's my 1st week out of a gruesome (my personal opinion) and insanely intense 12-week program at Metis Data Science Bootcamp here in New York and I thought of writing about our 1st ever project as well as the challenges that came along with it. I'll make this as short and painless as possible, I promise!
 
-We were asked to come up with a simple analysis on NYC's subway data being that well, this is New York and I'd say about 95% of people here take the subway to wherever and it would be a bit interesting to check out some stats about subway ridership.
+We were asked to come up with a simple analysis on NYC's subway data being that well, this is New York and I'd say about 95% of people here take the subway to wherever and it would be a bit interesting to check out some stats on subway ridership.
 
 Btw, a shout out to my groupmates Nidhin and Julia for making this project a success!
 
