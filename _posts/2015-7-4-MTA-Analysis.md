@@ -5,6 +5,7 @@ published: true
 ---
 
 
+Well hello there!
 
 I'll be real honest and say this is my first ever attempt at blogging... so if at any point you start to scratch your head and wonder how reading this will add value to your life (it won't, really haha) or worse, I start to bore you to death, you have my permission to move on to the next funner and more interesting blogger out there. :D
 
@@ -18,8 +19,10 @@ After a good number of brainstorming sessions our group came to an agreement tha
 
 Now on to the process...
 
+##IMPORTS
+
 Having learned Python in the past week we put it to good use during this project. First, we needed to import the necessary Python modules (see below).
 
-![_config.yml]({{ site.baseurl }}/images/week 1/imports.png)
+![_config.yml]({{ site.baseurl }}/images/week_1/imports.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![Imgur](http://i.imgur.com/Bw6VgOQ.png)
