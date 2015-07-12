@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Week 1: A Very Simple Study On NYC Subway Data"
+title: "Week 1: A Simple Study On NYC Subway Data"
 published: true
 ---
 
@@ -15,7 +15,7 @@ We were asked to come up with a simple analysis on NYC's subway data being that 
 
 Btw, a shout out to my groupmates Nidhin and Julia for making this project a success!
 
-After a good number of brainstorming sessions our group came to an agreement that we will do a study on the busiest MTA stations with also the highest ratio of commuters based on data we gathered from http://web.mta.info/developers/turnstile.html (MTA ridership) and http://web.mta.info/developers/fare.html (MTA fare). Why choose this particular dataset you might ask? The answer is... actually for no particular reason lol. Though knowing where to best reach actual "New Yorkers" and not the tourists may come in handy later.
+After a good number of brainstorming sessions our group came to an agreement that we will do a study on the busiest MTA stations with also the highest ratio of commuters based on data we gathered from http://web.mta.info/developers/turnstile.html (MTA ridership) and http://web.mta.info/developers/fare.html (MTA fare). Why choose this particular dataset you might ask? The answer is... actually for no particular reason lol. Though knowing where to best reach actual "New Yorkers" vs. tourists may come in handy later.
 
 Now on to the process...
 
@@ -23,6 +23,6 @@ Now on to the process...
 
 Having learned Python in the past week we put it to good use during this project. First, we needed to import the necessary Python modules (see below).
 
-![_config.yml]({{ site.baseurl }}/images/week_1/imports.png)
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_1/Imports.png)
 
-![Imgur](http://i.imgur.com/Bw6VgOQ.png)
+
