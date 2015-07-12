@@ -18,12 +18,12 @@ avatar: https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevil
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: stephanieleevillanueva@gmail.com
+  facebook: https://www.facebook.com/Pipay.Lee.Villanueva
   flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
+  github: stephanieleevillanueva/stephanieleevillanueva.github.io
+  instagram: https://instagram.com/pipayvillanueva/
+  linkedin: https://www.linkedin.com/profile/view?id=362243269&trk=hp-identity-name
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: jekyllrb
