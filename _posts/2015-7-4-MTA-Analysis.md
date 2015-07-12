@@ -19,10 +19,27 @@ After a good number of brainstorming sessions our group came to an agreement tha
 
 Now on to the process...
 
-##IMPORTS
+##DATA
 
-Having learned Python in the past week we put it to good use during this project. First, we needed to import the necessary Python modules (see below).
+Having learned ``Python`` in the past week we put it to good use during this project. First, we needed to import the necessary ``Python`` modules (see below).
 
 ![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_1/Imports.png)
+
+Next, we pulled data from NYC's MTA website on entries and exits per subway station and converted it into ``pandas dataframe``. We renamed the columns as well. And yes, I know you might be wondering where the distinction is between commuters and tourists. Hold your excitement (lol) and we'll get to that later.
+
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_1/Data.png)
+
+Since the data we pulled was raw, we had to do a few more data clean-up and conversions to get it ready for processing and analysis. I won't go into detail anymore or else my blog would turn into a novel (:p) but basically we did data filters and sorts, date parsing, and data aggregates. This part of the process was truly a challenge for all of us, again it's our first week and we were all still getting our feet wet. I guess the main thing is to just keep grinding and eventually you'll get it done, just as we did. :)
+
+Anyway back to the process...
+
+
+##ANALYSIS
+
+We selected a stacked bar graph to represent our findings (see below).
+
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_1/stacked_bar_graph.png)
+
+Whoops! Forgot to mention a very important detail in any type of analysis, the scope of our data. The data we used for this analysis is May 2015. As you can see from the graph, we did separate analysis for weekdays and weekends. What does our data tell us? So far we see a significantly higher volume of traffic on weekdays, which makes sense considering NYC is the main hub for businesses. 
 
 
