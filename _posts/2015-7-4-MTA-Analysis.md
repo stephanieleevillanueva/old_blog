@@ -13,7 +13,9 @@ We were asked to come up with a simple analysis on NYC's subway data being that 
 
 Btw, a shout out to my groupmates Nidhin and Julia for making this project a success!
 
-After quite a number of brainstorming sessions our group came to an agreement that we will do a study on the busiest MTA stations with also the highest ratio of commuters based on data we gathered from http://web.mta.info/developers/turnstile.html (MTA ridership) and http://web.mta.info/developers/fare.html (MTA fare).
+After a good number of brainstorming sessions our group came to an agreement that we will do a study on the busiest MTA stations with also the highest ratio of commuters based on data we gathered from http://web.mta.info/developers/turnstile.html (MTA ridership) and http://web.mta.info/developers/fare.html (MTA fare). Why choose this particular dataset you might ask? The answer is... actually for no particular reason lol. Though knowing where to best reach actual "New Yorkers" and not the tourists may come in handy later.
+
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
