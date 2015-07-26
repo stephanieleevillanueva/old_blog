@@ -27,7 +27,7 @@ I will be using the following Python library for my demo:
 
 Before doing any regression, you must first scrape/build your dataset. For this demo, my dataset is tv shows basic data.
 
-![_config.yml]() -----tv_df--------
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/tv_df.png)
 
 ####The Problem
 
@@ -38,21 +38,21 @@ the number of seasons and my X can be whichever other feature(s) I choose. For n
 
 Though this is not a requirement, before doing regression or any type of analysis, it is good practice to try to see first what your data looks like on a plot. The reason is it might already give you a hint as to what model to use that would best fit your data. It saves a good amount of time doing analysis rather than going in blind.
 
-![_config.yml]() ----dataset plot------
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/dataset_plot.png)
 
 ####Model 1: Simple Linear Regression Model
 
 Let's get to the modeling part. As I've mentioned earlier, my initial model will only have 1 X feature and we will use Linear Regression for that. Python has at least a couple of modeling libraries that are very intuitive and user-friendly and for this demo we will be using `statsmodels`. We will also want to import `patsy` and `matplotlib.pyplot`.
 
-![_config.yml]() -----imports-----
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/imports.png)
 
 Next, we build our model.
 
-![_config.yml]() -----OLS-----
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/ols1.png)
 
 We'll break this down line by line. The first line with `dmatrices` is creating 2 arrays, 1 for my X variables and 1 for my y variables. It takes the values from my `tv_df` dataset and assigns `Seasons` (value before the ~) to my y array `ols_train1_y` and assigns `UserRating` (value after the ~) to my X array `ols_train1_X`. The next line basically creates my model. I know what you're thinking... yes, it is that simple! I use OLS (Ordinary Least Squares from Linear Regression module) model of statsmodels to create the line that fits my X and y data points. The last line is a bit more tricky. When you run the `summary()` function of a model, it will display a comprehensive statistics table, as shown below.
 
-![_config.yml]() -----Summary-----
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/summary1.png)
 
 The summary table can be a bit overwhelming. Or at least that's how I felt upon seeing this pop-up for the first time. Not to worry, in determining how well your model fits the data, you really only need to look at a couple of things: R-squared and adjusted R-squared. R-squared is the variance that can be explained by the model which means we want a high R-squared, as close to 1 as possible. Adjusted R-squared provides an adjustment to R-squared such that an independent variable (any X) that has a correlation to Y increases adjusted R-squared. Conversely, any independent variable without a strong correlation will make adjusted R-squared decrease. Adjusted R-squared matters if you have more than 1 independent variable, otherwise both R-squared and adjusted R-squared will be more or less the same (e.g. this model). 
 
