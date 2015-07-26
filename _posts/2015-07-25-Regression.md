@@ -56,7 +56,7 @@ We'll break this down line by line. The first line with `dmatrices` is creating 
 
 The summary table can be a bit overwhelming. Or at least that's how I felt upon seeing this pop-up for the first time. Not to worry, in determining how well your model fits the data, you really only need to look at a couple of things: R-squared and adjusted R-squared. R-squared is the variance that can be explained by the model which means we want a high R-squared, as close to 1 as possible. Adjusted R-squared provides an adjustment to R-squared such that an independent variable (any X) that has a correlation to Y increases adjusted R-squared. Conversely, any independent variable without a strong correlation will make adjusted R-squared decrease. Adjusted R-squared matters if you have more than 1 independent variable, otherwise both R-squared and adjusted R-squared will be more or less the same (e.g. this model). 
 
-Looking at the statistic P>|t| in the second table will also give you insight as to which independent variable or X feature impacts the Y the most. A feature with a very small P>|t| value has a strong correlation with the Y.
+Looking at the statistic P>|t| in the second table will also give you insight as to which independent variable or X impacts the Y the most. A feature with a very small P>|t| value has a strong correlation with the Y.
 
 Now that we know how to interpret the goodness of fit of a model (using R-squared), we can say that this first model did not turn out to be a good model and we can improve it much more.
 
@@ -66,4 +66,7 @@ Before moving on to a new model that hopefully would be a better fit to the data
 
 As you can see, a good ratio of the blue dots (actual values) are far off from my red line (model predicted values) which means the sum of errors for each point is very high.
 
+####Model 2: Multiple Linear Regression Model
 
+
+What I've shown above are only 2 of the very many ways of building a model. There is enough flexibility in these models. You can do quadratic models where you add another feature which is the square of your X, polynomial models to go beyond just squares, log-linear models where you transform your y into log form, etc. I think knowing beforehand which model will probably best fit the data comes with experience and the more you try and do it, the better you'll become at it. With that, happy modeling! :)
