@@ -42,7 +42,7 @@ Though this is not a requirement, before doing regression or any type of analysi
 
 ####Model 1: Simple Linear Regression Model
 
-Let's get to the modeling part. As I've mentioned earlier, my initial model will only have 1 X feature and we will use Linear Regression for that. Python has at least a couple of modeling libraries that are very intuitive and user-friendly and for this demo we will be using `statsmodels`. We will also want to import `patsy` and `matplotlib.pyplot`.
+Let's get to the modeling part. As I've mentioned earlier, our initial model will only have 1 X feature and we will use Linear Regression for that. Python has at least a couple of modeling libraries that are very intuitive and user-friendly and for this demo we will be using `statsmodels`. We will also want to import `patsy` and `matplotlib.pyplot`.
 
 ![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/imports.png)
 
@@ -58,15 +58,20 @@ The summary table can be a bit overwhelming. Or at least that's how I felt upon 
 
 Looking at the statistic P>|t| in the second table will also give you insight as to which independent variable or X impacts the Y the most. A feature with a very small P>|t| value has a strong correlation with the Y.
 
-Now that we know how to interpret the goodness of fit of a model (using R-squared), we can say that this first model did not turn out to be a good model and we can improve it much more.
+Now that we know how to interpret the goodness of fit of a model (using R-squared), we can say that this first model did not turn out to be a good fit and we can improve it much more.
 
 Before moving on to a new model that hopefully would be a better fit to the data points, I'm going to show you the plot of the first model.
 
 ![_config.yml]() -----Plot-----
 
-As you can see, a good ratio of the blue dots (actual values) are far off from my red line (model predicted values) which means the sum of errors for each point is very high.
+As you can see, a good ratio of the blue dots (actual values) are far off from the red line (model predicted values) which means the sum of errors for each point is very high.
 
 ####Model 2: Multiple Linear Regression Model
 
+Now for the second model I will be using multiple linear regression, or in simple terms a model with more than one X. I choose `UserRating` and `Genre` as my predictors as shown in the code below.
 
-What I've shown above are only 2 of the very many ways of building a model. There is enough flexibility in these models. You can do quadratic models where you add another feature which is the square of your X, polynomial models to go beyond just squares, log-linear models where you transform your y into log form, etc. I think knowing beforehand which model will probably best fit the data comes with experience and the more you try and do it, the better you'll become at it. With that, happy modeling! :)
+![_config.yml]() -----Code2-----
+
+One cool feature of `dmatrices` is its ability to recognize categorical (non-numeric) features and convert them into what are called dummy variables. For more on dummy variables, you can read [The Use of Dummy Variables in Regression Analysis by By Smita Skrivanek](https://www.moresteam.com/whitepapers/download/dummy-variables.pdf)
+
+What I've shown above are only 2 of the very many ways of building a model. There is enough flexibility in these models. You can do quadratic models where you add another feature which is the square of your X, polynomial models to go beyond just squares, log-linear models where you transform your y into log form, etc. I think knowing beforehand which model will probably best fit the data comes with experience and the more you try and do it, the better you'll become at it. Happy modeling! :)
