@@ -64,6 +64,6 @@ Before moving on to a new model that hopefully would be a better fit to the data
 
 ![_config.yml]() -----Plot-----
 
-
+As you can see, a good ratio of the blue dots (actual values) are far off from my red line (model predicted values) which means the sum of errors for each point is very high.
 
 
