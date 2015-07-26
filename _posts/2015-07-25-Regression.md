@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 3: Let's Regress In A Good Way"
-published: false
+published: true
 ---
 
 It has been more than a decade since I last encountered statistical regression so it was not suprising that I had completely 
@@ -78,6 +78,10 @@ Apart from dummy variables, the process of building a model is generally the sam
 
 ![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/summary2.png)
 
-Looks like the R-squared statistic improved, but not by much. Also, the adjusted R-squared is showing a lower value than the R-squared which means that although adding `Genre` as predictor increased the variance that can be explained by this model, `Genre` does not have a very strong correlation with Y. Interestingly, there are a couple of 
+Looks like the R-squared statistic improved, but not by much. Also, the adjusted R-squared is showing a lower value than the R-squared which means that although adding genre as predictor increased the variance that can be explained by this model, genre does not have a very strong correlation with Y. Interestingly, there is one genre that shows strong correlation with Y and that is the reality genre. This means that reality TV shows generally run for more seasons, about 1.5 more, when compared to other shows.
+
+Here is the plot of this model.
+
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/plot2.png)
 
 What I've shown above are only 2 of the very many ways of building a model. There is enough flexibility in these models. You can do quadratic models where you add another feature which is the square of your X, polynomial models to go beyond just squares, log-linear models where you transform your y into log form, etc. I think knowing beforehand which model will probably best fit the data comes with experience and the more you try and do it, the better you'll become at it. Happy modeling! :)
