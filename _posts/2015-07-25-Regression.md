@@ -62,7 +62,7 @@ Now that we know how to interpret the goodness of fit of a model (using R-square
 
 Before moving on to a new model that hopefully would be a better fit to the data points, I'm going to show you the plot of the first model.
 
-![_config.yml]() -----Plot-----
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/plot1.png)
 
 As you can see, a good ratio of the blue dots (actual values) are far off from the red line (model predicted values) which means the sum of errors for each point is very high.
 
@@ -70,8 +70,14 @@ As you can see, a good ratio of the blue dots (actual values) are far off from t
 
 Now for the second model I will be using multiple linear regression, or in simple terms a model with more than one X. I choose `UserRating` and `Genre` as my predictors as shown in the code below.
 
-![_config.yml]() -----Code2-----
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/ols2.png)
 
-One cool feature of `dmatrices` is its ability to recognize categorical (non-numeric) features and convert them into what are called dummy variables. For more on dummy variables, you can read [The Use of Dummy Variables in Regression Analysis by By Smita Skrivanek](https://www.moresteam.com/whitepapers/download/dummy-variables.pdf)
+One cool feature of `dmatrices` is its ability to recognize categorical (non-numeric) features and convert them into what are called dummy variables. Basically, a dummy variable is an artificial variable created to represent an attribute with two or more distinct categories/levels. Regression needs numerical features and dummy variables are the answer to that. For more on dummy variables, you can read [The Use of Dummy Variables in Regression Analysis by By Smita Skrivanek](https://www.moresteam.com/whitepapers/download/dummy-variables.pdf)
+
+Apart from dummy variables, the process of building a model is generally the same. We will check the `summary()` to see whether adding `Genre` created a better fit model.
+
+![_config.yml](https://raw.githubusercontent.com/stephanieleevillanueva/stephanieleevillanueva.github.io/master/images/Week_3/summary2.png)
+
+Looks like the R-squared statistic improved, but not by much. Also, the adjusted R-squared is showing a lower value than the R-squared which means that although adding `Genre` as predictor increased the variance that can be explained by this model, `Genre` does not have a very strong correlation with Y. Interestingly, there are a couple of 
 
 What I've shown above are only 2 of the very many ways of building a model. There is enough flexibility in these models. You can do quadratic models where you add another feature which is the square of your X, polynomial models to go beyond just squares, log-linear models where you transform your y into log form, etc. I think knowing beforehand which model will probably best fit the data comes with experience and the more you try and do it, the better you'll become at it. Happy modeling! :)
