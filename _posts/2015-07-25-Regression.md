@@ -15,7 +15,8 @@ Is it normal to wonder how "regression" became a very popular term in statistics
 
 Regression in statistical meaning is simply a method of fitting lines or curves through our X and y data points. X variables are also called predictor or independent variables while y are response or dependent variables and also called labels. Basically, regression is trying to find the best line or curve that fits our data so that we can use this line or curve as a model for when we predict the values of y's given a new set of X's in the future. To help understand this definition better, I will be showing the different models I got when I tried plotting the tv dataset I scraped from the web.
 
-I will be using the following Python library for my demo:
+I will be using the following Python library for my demo: 
+
 * `statsmodels` (for creation of regressions/models)
 * `patsy` (for generating my X and y sets to be used as input to statsmodels)
 * `matplotlib` (for plotting)
