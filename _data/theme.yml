@@ -1,0 +1,29 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#e17520#'#3498db'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: stephanieleevillanueva
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  #twitter: 
+  facebook: Pipay.Lee.Villanueva
+  #tumblr:
+  linkedin: stephanieleevillanueva
+  #gplus: 
+  #gravatar: 
+
+# "Hi, I'm _______"
+name: Steph Villanueva
+email: stephanieleevillanueva@gmail.com
+tagline: "follow your passion"
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: false
